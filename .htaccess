@@ -2,4 +2,4 @@ ErrorDocument 404 /public_library/html/404.php
 ErrorDocument 403 /public_library/html/403.php
 ErrorDocument 402 /public_library/html/404.php
 ErrorDocument 401 /public_library/html/404.php
-php_value auto_prepend_file /var/www/html/prepend_php_library/test.php
+#php_value auto_prepend_file /var/www/html/prepend_php_library/test.php
