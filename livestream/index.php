@@ -31,7 +31,6 @@ $valid = new User\userValidation();
     <?PHP require_once ($_SERVER['DOCUMENT_ROOT'] . "/public_library/html/videoLive.php");?>
 	
 	<?PHP require_once ($_SERVER['DOCUMENT_ROOT'] .  "/schedule/schedule.php"); //SCHEDULE ?>
-
 </div>
 </body>
 </html>
