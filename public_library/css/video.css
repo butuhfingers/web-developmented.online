@@ -1,0 +1,19 @@
+#cartoon-video-container{
+    float:left;
+    padding:0px; padding-bottom:0px; margin:0px;
+    width:100%;
+    background: #040404;;
+}
+    #cartoon-video-section{
+        float:left;
+        padding:0px; margin:0px;
+        width:960px;
+    }
+        #cartoon-video-title p{
+            margin:0px; padding:5px 20px;
+        }
+
+        #cartoon-video-section video{
+            padding:0px;  margin:0px;
+            width: auto; height: 540px;
+        }

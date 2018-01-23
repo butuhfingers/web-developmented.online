@@ -1,0 +1,35 @@
+body{
+    background-color: #DDDDDD;
+    padding:0px; margin:0px;
+}
+
+#home-main-body-content {
+    float:left;
+    margin-top:100px;
+    margin-left:25%;
+}
+    #home-main-body-content #login-form{
+        float:left;
+    }
+
+    #home-main-body-content #login-form .password-input,
+    #home-main-body-content #login-form button, #login-form .username-input{
+        padding:5px;
+        border-radius: 5px;
+        font-size: 20px;
+        color: #454545;
+        border: none;
+        background-color: #EEEEEE;
+    }
+    #home-main-body-content #login-form button{
+        width:100%;
+        background-color:#353535;
+        color:white;
+        font-weight:bold;
+        border-radius:5px;
+        cursor:pointer;
+        transition:0.4s;
+    }
+        #home-main-body-content #login-form button:hover {
+            background-color:#151515;
+        }
