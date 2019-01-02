@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="/public_library/css/home.css"/>
 	    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-    <title>The home of CN TV!</title>
+    <title>The home of CN TVs!</title>
 </head>
 <body>
 <?PHP include_once($_SERVER['DOCUMENT_ROOT'] . "/public_library/html/menu.php"); ?>
