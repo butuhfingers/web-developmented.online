@@ -1,0 +1,25 @@
+body{
+    margin:0px;
+}
+    #main-video-content{
+        font-family: Arial;
+        background-color: #060606;
+        margin-bottom:50px;
+        width:100%; height:100px;
+    }
+        #video-container{
+            width:100%;
+        }
+            #main-video-title{
+                padding:3%;
+                width:94%;
+                font-size:50px;
+                color: #DDDDDD;
+                font-weight:bold;
+                text-align: center;
+                background-color: #060606;
+            }
+            #main-video{
+                width:100%;
+                cursor:pointer;
+            }

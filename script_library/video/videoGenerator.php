@@ -1,5 +1,6 @@
 <?php namespace video;
 require_once($_SERVER['DOCUMENT_ROOT'] . "/script_library/debug/debug.php");
+require_once($_SERVER['DOCUMENT_ROOT'] . "/script_library/database/pdoDatabase.php");
 use debug\debug;
 
 /**

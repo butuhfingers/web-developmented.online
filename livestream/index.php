@@ -1,5 +1,5 @@
 <?PHP
-require_once ("../script_library/userInfo/userValidation.php");
+require_once ($_SERVER['DOCUMENT_ROOT'] . "/script_library/userInfo/userValidation.php");
 
 //Check the user validation
 $valid = new User\userValidation();
@@ -18,9 +18,9 @@ $valid = new User\userValidation();
     <link rel="stylesheet" type="text/css" href="/public_library/css/generalbody.css"/>
     <link rel="stylesheet" type="text/css" href="/public_library/css/home.css"/>
     <link rel="stylesheet" type="text/css" href="/public_library/css/video.css"/>
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>e
     <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-    <?PHP require_once("../public_library/html/liveVideoJSInclude.php");?>
+    <?PHP require_once($_SERVER['DOCUMENT_ROOT'] . "/public_library/html/liveVideoJSInclude.php");?>
     <title>Watch your favorite cartoons!</title>
 </head>
 <body>
