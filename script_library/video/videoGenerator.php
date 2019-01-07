@@ -63,13 +63,13 @@ class videoGenerator {
 		
 		echo $this->directory . $video . "<br>";
 		//Return the name of it
-		return explode("developmented.online/", $this->directory . $video)[1];
+		return $this->directory . $video;
 	}
 
 	public function GetVideoDuration($videoPath): int{	//This will return the amount of time in seconds rounded up
 		$video =  trim($videoPath);
 		$video = explode("videos/", $video)[1];
-		$video = "\"/var/www/html/developmented.online/videos/$video\"";
+		$video = "\"/var/www/html/videos/$video\"";
 //		echo $video;
 
 		$myString = "ffprobe -show_streams -i $video";
