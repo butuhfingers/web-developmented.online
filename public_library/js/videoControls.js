@@ -3,7 +3,7 @@ function VideoControls(){
     //The predefined variables
     var isLiveVideo = true;
     var video = $("video")[0];
-    var timeBar = $(".video-current-time")[0];
+    var timeBar = $(".video-current-time-bar")[0];
     var videoTimer = $(".video-time")[0];
 
     //Return the supposed live video time

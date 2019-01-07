@@ -1,21 +1,22 @@
 .video-controls{
+    float:left;
     padding:0px 0px;
     margin-top:7px;
     width:100%;
-    height:55px;
+    font-size:40px;
     color:grey;
     font-weight:bold;
-    font-size:26px;
     background-color:#181818;
 }
     .video-overall-time-bar {
+        float:left;
         margin-top:-6px;
         width:100%;
-        height:5px;
+        height:10px;
         background-color:lightgrey;
     }
         .video-current-time-bar {
-
+            float:left;
             width:50%;
             height:100%;
             background-color:lime;
@@ -23,22 +24,37 @@
     .video-viewer-count{
         margin:0px 10px; padding:0px;
     }
+    .video-control-button{
+        float:left;
+        margin-top:3px;
+        /*background-color:#181818;*/
+    }
+    .video-viewer-counter{
+        float:left;
+    }
+        .mobile-element-cluster{
+            float:left;
+            margin-top:40px;
+            width:300px;
+        }
         .volume-slider {
-            margin-top: 10px;
-            width: 100%; /* Width of the outside container */
+            float:left;
+            width: 300px; /* Width of the outside container */
+            height: 50px;
         }
             /* The slider itself */
             .slider {
                 -webkit-appearance: none;  /* Override default CSS styles */
                 appearance: none;
                 width: 100%; /* Full-width */
-                height: 25px; /* Specified height */
+                height: 100%; /* Specified height */
                 background: #d3d3d3; /* Grey background */
                 outline: none; /* Remove outline */
                 opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
                 -webkit-transition: .2s; /* 0.2 seconds transition on hover */
                 transition: opacity .2s;
             }
+
                 /* Mouse-over effects */
                 .slider:hover {
                     opacity: 1; /* Fully shown on mouse-over */
@@ -49,28 +65,18 @@
                     -webkit-appearance: none; /* Override default look */
                     appearance: none;
                     width: 25px; /* Set a specific slider handle width */
-                    height: 25px; /* Slider handle height */
+                    height: 100%; /* Slider handle height */
                     background: #4CAF50; /* Green background */
                     cursor: pointer; /* Cursor on hover */
                 }
-
                 .slider::-moz-range-thumb {
                     width: 25px; /* Set a specific slider handle width */
-                    height: 25px; /* Slider handle height */
+                    height: 100%; /* Slider handle height */
                     background: #4CAF50; /* Green background */
                     cursor: pointer; /* Cursor on hover */
                 }
-
-.video-control-button{
-        margin-top:3px;
-        /*background-color:#181818;*/
-    }
-    .volume-slider{
-        width:auto;
-        max-height:30px;
-    }
         .video-control-button-html, .video-control-info-html{
-            padding:5px 5px;
+            margin:0px 10px;
             font-size: 24px;
             color:lightgrey;
             cursor:pointer;
@@ -82,9 +88,9 @@
             cursor:default;
         }
         .video-time{
+            float:left;
             padding:2px 10px; margin-top:5px;
-            height:100%;
-            font-size:16px;
+            height:50px;
             text-align:center;
         }
     .video-controls .left{
@@ -94,30 +100,27 @@
         float:right;
     }
         .play-pause-button, .mute-button{
-            width:40px;
-        }
-        .play-pause-button img, .mute-button img{
-
-            width:100%;
+            padding:5px;
+            width:150px;
         }
             .play-button, .pause-button{
-                margin:0px;
-                padding:0px;
                 width:100%;
             }
-        .pause-button{
-            display:none;
+                .play-button img, .pause-button img, .mute-button img{
+                    width:100%;
+                }
+            .pause-button{
+                display:none;
+            }
+        .video-viewer-count{
+            margin-top:30px;
         }
-    .video-time{
-        margin-top:15px;
-    }
-    .video-viewer-count{
-        height:40px;
-    }
-        .video-viewer-count img{
-            height:100%;
-        }
-        .video-viewer-counter p{
-            margin-top:5px;
-            padding:0px;
-        }
+            .video-viewer-count img{
+                width:100px;
+            }
+            .video-viewer-counter p{
+                float:left;
+                margin:0px;
+                padding-top:20px;
+                font-size:50px;
+            }
