@@ -59,6 +59,8 @@ class videoGenerator {
 			$this->directory .=  $video . "/";
 			return $this->GetVideo($seed);
 		}
+		
+		echo $this->directory . $video . "<br>";
 		//Return the name of it
 		return explode("developmented.online/", $this->directory . $video)[1];
 	}
